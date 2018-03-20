@@ -1,0 +1,167 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+.menu {
+	margin: 0px; 
+    position: absolute;
+    padding: 0px;
+    left: 0px;
+    right: 0px;
+    position: absolute !important;
+}	
+.menu ul {
+	display: block;
+	position: absolute;
+    width: 100%;
+    top: 42px;
+    z-index: 1;
+}
+.menu ul li{
+	display: block;
+    line-height: 59px;
+    line-height: 59px;
+    text-align: center;
+    background-color: #252525;
+    opacity: 0.93;
+}
+.menu ul li:last-child {
+	border-bottom: 1px solid gray;
+}
+
+.menu ul li a {
+	padding: 0px;
+	display: block;
+}
+.menu ul li a:hover {
+	border: none;
+	color: #11749E;
+}
+.blog_photos {
+	flex-wrap: wrap;
+}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+.news_1 {
+	flex-direction: column;
+}
+.news_1_1, .news_img_1  {
+	width: 100% !important;
+}
+.news_2 {
+	flex-direction: column-reverse;
+}
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+.feature_all {
+	flex-wrap: wrap;
+}
+.action_area {
+	flex-wrap: wrap;
+	padding: 0px 20px;
+}
+.key_feature {
+	flex-wrap: wrap;
+	padding: 0px 20px;
+}
+
+}
+@media only screen and (max-width : 640px) {
+.main-text h1 {
+	font-size: 60px !important ;
+}
+}
+@media only screen and (max-width : 558px) {
+.about_agency .we_are {
+	bottom: 195px;
+}
+
+}
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+.main-text h1 {
+	font-size: 50px !important ;
+}
+
+.main-text p {
+	font-size: 11px;
+}
+.news_1_1 p {
+	margin: 30px 10px 30px 10px;
+}
+.news_1_2 p {
+	margin: 30px 10px 30px 10px;
+}
+.action_area .action {
+    margin: 60px 10px;
+}
+.blue_line1,.blue_line2, .blue_line3 {
+	width: 200px !important;
+	margin: auto;
+}
+.key_feature .text_area .blue_line p {
+	font-size: 10px;
+}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+.soc_buttons {
+	display: none;
+}
+.main-text h1 {
+	font-size: 40px !important ;
+}
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+.blog_photos .blog_column {
+	width: 360px;
+}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+.blog_photos .blog_column {
+	width: 450px;
+}
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+.menu_button {
+	display: none;
+}
+.section_2 {
+	padding: 0px 150px;
+}
+.menu ul {
+	display: block !important;
+	
+}
+.blog {
+	padding: 0px 50px;
+}
+.blog_photos .blog_column {
+	width: 260px;
+}
+}
