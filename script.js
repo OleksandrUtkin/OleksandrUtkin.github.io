@@ -1,10 +1,6 @@
 $(document).ready(function() {
 
-	$(".menu_button").click(function() {
-		$(".menu ul").slideToggle();
-	});
-
-		//E-mail Ajax Send
+	//E-mail Ajax Send
 	$("form").submit(function() { //Change
 		var th = $(this);
 		$.ajax({
@@ -22,4 +18,3 @@ $(document).ready(function() {
 	});
 
 });
-
