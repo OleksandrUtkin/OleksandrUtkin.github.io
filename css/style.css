@@ -1,0 +1,643 @@
+@charset "UTF-8";
+/* line 1, C:/Users/Не Скажу/Desktop/project1/scss/style.scss */
+body {
+  padding: 0px;
+  margin: 0;
+  font-size: 25px;
+  width: 100%;
+  height: 100vh;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* line 10, C:/Users/Не Скажу/Desktop/project1/scss/style.scss */
+.section_1 {
+  height: 100vh;
+  background-image: url(../img/sv.jpg);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+/* line 18, C:/Users/Не Скажу/Desktop/project1/scss/style.scss */
+.header {
+  display: flex;
+  justify-content: space-around;
+  height: 115px;
+  width: 100%;
+  border-bottom: 1px solid grey;
+}
+
+/* line 25, C:/Users/Не Скажу/Desktop/project1/scss/style.scss */
+.logo {
+  width: 79px;
+  height: 75px;
+  margin: 20px 0px;
+}
+
+/* line 30, C:/Users/Не Скажу/Desktop/project1/scss/style.scss */
+.logo img {
+  display: block;
+  position: absolute;
+}
+
+/* line 34, C:/Users/Не Скажу/Desktop/project1/scss/style.scss */
+.logo .img1 {
+  padding: 8px 0px 0px 12px;
+}
+
+/* line 38, C:/Users/Не Скажу/Desktop/project1/scss/style.scss */
+.logo p {
+  display: inline-block;
+  position: absolute;
+  color: #fff;
+  font-family: "OpenSansBold";
+  font-size: 35px;
+  margin: 7px 0px 0px 10px;
+  text-transform: uppercase;
+}
+
+/* line 50, C:/Users/Не Скажу/Desktop/project1/scss/style.scss */
+.menu {
+  color: #fff;
+  display: inline-block;
+  position: relative;
+}
+
+/* line 55, C:/Users/Не Скажу/Desktop/project1/scss/style.scss */
+.menu ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+/* line 60, C:/Users/Не Скажу/Desktop/project1/scss/style.scss */
+.menu li {
+  display: inline-block;
+}
+
+/* line 64, C:/Users/Не Скажу/Desktop/project1/scss/style.scss */
+.menu a {
+  text-decoration: none;
+  padding: 50px 12px 0px 12px;
+  height: 59px;
+  display: block;
+  color: #fff;
+  font-size: 18px;
+  font-family: "GothamProLight";
+}
+
+/* line 73, C:/Users/Не Скажу/Desktop/project1/scss/style.scss */
+.menu a:hover {
+  border-bottom: 6px #11749E solid;
+}
+
+/* line 79, C:/Users/Не Скажу/Desktop/project1/scss/style.scss */
+.soc_buttons {
+  display: inline-block;
+  position: relative;
+  float: right;
+  font-size: 18px;
+  margin-top: 50px;
+}
+
+/* line 86, C:/Users/Не Скажу/Desktop/project1/scss/style.scss */
+.soc_buttons a {
+  display: inline-block;
+  color: #fff;
+  margin-left: 25px;
+}
+
+/* line 90, C:/Users/Не Скажу/Desktop/project1/scss/style.scss */
+.soc_buttons a:hover {
+  color: #11749E;
+}
+
+/* line 96, C:/Users/Не Скажу/Desktop/project1/scss/style.scss */
+.menu_button {
+  background-color: transparent;
+  border: medium none;
+  font-size: 24px;
+  color: #fff;
+  padding-top: 45px;
+  position: relative;
+  cursor: pointer;
+}
+
+/* line 105, C:/Users/Не Скажу/Desktop/project1/scss/style.scss */
+.main-text {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  margin: auto;
+}
+
+/* line 110, C:/Users/Не Скажу/Desktop/project1/scss/style.scss */
+.main-text h1 {
+  font-size: 100px;
+  color: #fff;
+  margin: 0px;
+  font-family: "GothamProBold";
+}
+
+/* line 116, C:/Users/Не Скажу/Desktop/project1/scss/style.scss */
+.main-text p {
+  letter-spacing: 9px;
+  text-transform: uppercase;
+  color: #11749E;
+  font-family: "GothamProMedium";
+}
+
+/* line 123, C:/Users/Не Скажу/Desktop/project1/scss/style.scss */
+.section_2 {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  height: auto;
+  background-color: #11749e;
+}
+
+/* line 130, C:/Users/Не Скажу/Desktop/project1/scss/style.scss */
+.about_agency {
+  display: block;
+  position: relative;
+  margin: auto;
+  text-align: center;
+  height: 250px;
+  margin: 0px auto;
+}
+
+/* line 139, C:/Users/Не Скажу/Desktop/project1/scss/style.scss */
+.w_logo {
+  display: block;
+  position: relative;
+  font-family: "RobotoCondensedBold";
+  font-size: 225px;
+  color: #fff;
+  opacity: 0.4;
+}
+
+/* line 147, C:/Users/Не Скажу/Desktop/project1/scss/style.scss */
+.we_are {
+  display: inline-block;
+  position: relative;
+  font-family: "RobotoCondensedRegular";
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 44px;
+  bottom: 170px;
+}
+
+/* line 157, C:/Users/Не Скажу/Desktop/project1/scss/style.scss */
+.feature_all {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 50px 0px;
+}
+
+/* line 163, C:/Users/Не Скажу/Desktop/project1/scss/style.scss */
+.feature {
+  display: inline-block;
+  width: 260px;
+  height: 100%;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+/* line 170, C:/Users/Не Скажу/Desktop/project1/scss/style.scss */
+.feature .img_1 {
+  position: relative;
+  display: block;
+  margin: 0px auto;
+  display: inline-block;
+  left: 8%;
+}
+
+/* line 177, C:/Users/Не Скажу/Desktop/project1/scss/style.scss */
+.feature .img_2 {
+  display: block;
+  position: relative;
+  margin: 0px auto;
+  display: inline-block;
+  bottom: 50px;
+  right: 66px;
+}
+
+/* line 185, C:/Users/Не Скажу/Desktop/project1/scss/style.scss */
+.feature h3 {
+  font-family: "GothamProMedium";
+  color: #fff;
+  font-size: 18px;
+  line-height: 0.2;
+}
+
+/* line 191, C:/Users/Не Скажу/Desktop/project1/scss/style.scss */
+.feature p {
+  color: #fff;
+  font-size: 16px;
+  margin: 0px 20px;
+  font-family: "GothamProLight";
+}
+
+/* line 198, C:/Users/Не Скажу/Desktop/project1/scss/style.scss */
+.news {
+  display: block;
+  position: relative;
+}
+
+/* line 203, C:/Users/Не Скажу/Desktop/project1/scss/style.scss */
+.news_1 {
+  height: auto;
+  display: flex;
+  position: relative;
+}
+
+/* line 209, C:/Users/Не Скажу/Desktop/project1/scss/style.scss */
+.news_1_1, .news_1_2 {
+  background: #343434;
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/* line 216, C:/Users/Не Скажу/Desktop/project1/scss/style.scss */
+.news_1_1 p, .news_1_2 p {
+  margin: 30px 30px 30px 60px;
+  width: 460px;
+}
+
+/* line 220, C:/Users/Не Скажу/Desktop/project1/scss/style.scss */
+.news_1_1 .date, .news_1_2 .date {
+  font-family: "GothamProLight";
+  font-size: 9px;
+  color: #fff;
+}
+
+/* line 225, C:/Users/Не Скажу/Desktop/project1/scss/style.scss */
+.news_1_1 .akita_text, .news_1_2 .akita_text {
+  font-family: "GothamProMedium";
+  font-size: 14px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+/* line 231, C:/Users/Не Скажу/Desktop/project1/scss/style.scss */
+.news_1_1 .text_1, .news_1_2 .text_1 {
+  font-family: "GothamProLight";
+  font-size: 16px;
+  color: #fff;
+}
+
+/* line 238, C:/Users/Не Скажу/Desktop/project1/scss/style.scss */
+.news_img_1 {
+  width: 50%;
+  display: inline-block;
+}
+
+/* line 242, C:/Users/Не Скажу/Desktop/project1/scss/style.scss */
+.news_img_1 img {
+  width: 100%;
+  border: 0;
+  height: 100%;
+  display: inline-block;
+}
+
+/* line 249, C:/Users/Не Скажу/Desktop/project1/scss/style.scss */
+.news_1_2 {
+  background-color: #f3f3f3;
+}
+
+/* line 251, C:/Users/Не Скажу/Desktop/project1/scss/style.scss */
+.news_1_2 p {
+  margin: 30px 60px 30px 30px;
+  width: 460px;
+}
+
+/* line 255, C:/Users/Не Скажу/Desktop/project1/scss/style.scss */
+.news_1_2 .date, .news_1_2 .akita_text, .news_1_2 .text_1 {
+  color: black;
+}
+
+/* line 259, C:/Users/Не Скажу/Desktop/project1/scss/style.scss */
+.blog {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: auto;
+}
+
+/* line 265, C:/Users/Не Скажу/Desktop/project1/scss/style.scss */
+.lets_blog {
+  display: block;
+  position: relative;
+  margin: auto;
+  text-align: center;
+  height: 250px;
+  margin: 0px auto;
+}
+
+/* line 273, C:/Users/Не Скажу/Desktop/project1/scss/style.scss */
+.lets_blog .B {
+  display: inline-block;
+  position: relative;
+  font-family: "RobotoCondensedBold";
+  font-size: 225px;
+  color: black;
+  opacity: 0.2;
+  margin: 0px auto;
+}
+
+/* line 283, C:/Users/Не Скажу/Desktop/project1/scss/style.scss */
+.lets_blog .B_blog {
+  display: block;
+  position: relative;
+  font-family: "RobotoCondensedRegular";
+  text-transform: uppercase;
+  color: black;
+  font-size: 44px;
+  bottom: 216px;
+}
+
+/* line 292, C:/Users/Не Скажу/Desktop/project1/scss/style.scss */
+.lets_blog .we_love {
+  position: relative;
+  color: black;
+  font-family: "GothamProLight";
+  bottom: 170px;
+}
+
+/* line 300, C:/Users/Не Скажу/Desktop/project1/scss/style.scss */
+.blog_photos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 130px;
+}
+
+/* line 306, C:/Users/Не Скажу/Desktop/project1/scss/style.scss */
+.blog_photos .blog_column {
+  display: inline-block;
+  width: 270px;
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+/* line 311, C:/Users/Не Скажу/Desktop/project1/scss/style.scss */
+.blog_photos .blog_column img {
+  width: 100%;
+}
+
+/* line 314, C:/Users/Не Скажу/Desktop/project1/scss/style.scss */
+.blog_photos .blog_column h3 {
+  color: #11749e;
+  font-family: "GothamProMedium";
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+/* line 320, C:/Users/Не Скажу/Desktop/project1/scss/style.scss */
+.blog_photos .blog_column p {
+  color: #000;
+  font-size: 16px;
+  margin: 0px 20px;
+  font-family: "GothamProLight";
+}
+
+/* line 328, C:/Users/Не Скажу/Desktop/project1/scss/style.scss */
+.action_area {
+  display: flex;
+  flex-direction: row;
+  background-color: #11749e;
+  padding: 0px 50px;
+}
+
+/* line 334, C:/Users/Не Скажу/Desktop/project1/scss/style.scss */
+.action_area .action {
+  margin: 60px 20px;
+}
+
+/* line 337, C:/Users/Не Скажу/Desktop/project1/scss/style.scss */
+.action_area .action img {
+  float: left;
+  margin: 0px 20px 20px 0px;
+}
+
+/* line 341, C:/Users/Не Скажу/Desktop/project1/scss/style.scss */
+.action_area .action p {
+  font-size: 16px;
+  margin: 0px;
+  color: #fff;
+}
+
+/* line 348, C:/Users/Не Скажу/Desktop/project1/scss/style.scss */
+.key_feature {
+  background-image: url(../img/Layer-87.jpg);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: auto;
+  padding: 50px 50px;
+  align-items: center;
+}
+
+/* line 357, C:/Users/Не Скажу/Desktop/project1/scss/style.scss */
+.key_feature .text_area {
+  display: inline-block;
+  position: relative;
+  max-width: 480px;
+  width: 100%;
+}
+
+/* line 363, C:/Users/Не Скажу/Desktop/project1/scss/style.scss */
+.key_feature .text_area h3 {
+  color: #fff;
+  font-family: "GothamProMedium";
+  font-size: 16px;
+  color: #fff;
+}
+
+/* line 369, C:/Users/Не Скажу/Desktop/project1/scss/style.scss */
+.key_feature .text_area p {
+  color: #fff;
+  font-family: "GothamProLight";
+  font-size: 16px;
+  margin: 30px 0px 50px 0px;
+}
+
+/* line 375, C:/Users/Не Скажу/Desktop/project1/scss/style.scss */
+.key_feature .text_area .blue_line {
+  height: 40px;
+  background-color: #11749e;
+  line-height: 40px;
+  padding-left: 12px;
+  margin-bottom: 20px;
+}
+
+/* line 382, C:/Users/Не Скажу/Desktop/project1/scss/style.scss */
+.key_feature .text_area .blue_line p {
+  text-transform: uppercase;
+  font-family: "GothamProMedium";
+  font-size: 16px;
+  margin: 0px;
+}
+
+/* line 389, C:/Users/Не Скажу/Desktop/project1/scss/style.scss */
+.key_feature .text_area .blue_line1 {
+  width: 370px;
+}
+
+/* line 392, C:/Users/Не Скажу/Desktop/project1/scss/style.scss */
+.key_feature .text_area .blue_line2 {
+  width: 400px;
+}
+
+/* line 395, C:/Users/Не Скажу/Desktop/project1/scss/style.scss */
+.key_feature .text_area .blue_line3 {
+  width: 430px;
+}
+
+/* line 399, C:/Users/Не Скажу/Desktop/project1/scss/style.scss */
+.key_feature img {
+  width: 246px;
+}
+
+/* line 403, C:/Users/Не Скажу/Desktop/project1/scss/style.scss */
+.team {
+  background-color: #fff;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  height: auto;
+  padding: 50px 50px 0px 50px;
+}
+
+/* line 411, C:/Users/Не Скажу/Desktop/project1/scss/style.scss */
+.team .lets_blog {
+  display: block;
+  position: relative;
+  margin: auto;
+  text-align: center;
+  height: 250px;
+  margin: 0px auto;
+}
+
+/* line 419, C:/Users/Не Скажу/Desktop/project1/scss/style.scss */
+.team .lets_blog .T {
+  display: inline-block;
+  position: relative;
+  font-family: "RobotoCondensedBold";
+  font-size: 225px;
+  color: black;
+  opacity: 0.2;
+  margin: 0px auto;
+}
+
+/* line 429, C:/Users/Не Скажу/Desktop/project1/scss/style.scss */
+.team .lets_blog .our_team {
+  display: block;
+  position: relative;
+  font-family: "RobotoCondensedRegular";
+  text-transform: uppercase;
+  color: black;
+  font-size: 44px;
+  bottom: 216px;
+}
+
+/* line 438, C:/Users/Не Скажу/Desktop/project1/scss/style.scss */
+.team .lets_blog .market {
+  position: relative;
+  color: black;
+  font-family: "GothamProLight";
+  bottom: 170px;
+}
+
+/* line 445, C:/Users/Не Скажу/Desktop/project1/scss/style.scss */
+.team .blog_photos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 130px;
+}
+
+/* line 451, C:/Users/Не Скажу/Desktop/project1/scss/style.scss */
+.team .blog_photos .blog_column {
+  display: inline-block;
+  width: 270px;
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+/* line 456, C:/Users/Не Скажу/Desktop/project1/scss/style.scss */
+.team .blog_photos .blog_column img {
+  width: 260px;
+}
+
+/* line 459, C:/Users/Не Скажу/Desktop/project1/scss/style.scss */
+.team .blog_photos .blog_column .img_1 {
+  position: relative;
+  margin: auto;
+  bottom: 45px;
+  width: 210px;
+  height: 39px;
+}
+
+/* line 466, C:/Users/Не Скажу/Desktop/project1/scss/style.scss */
+.team .blog_photos .blog_column p {
+  color: #000;
+  font-size: 16px;
+  margin: 0px 20px;
+  font-family: "GothamProLight";
+  bottom: 84px;
+  display: inline-block;
+  position: relative;
+}
+
+/* line 474, C:/Users/Не Скажу/Desktop/project1/scss/style.scss */
+.team .blog_photos .blog_column p .name {
+  font-family: "GothamProMedium";
+  color: #11749e;
+  text-transform: uppercase;
+}
+
+/* line 479, C:/Users/Не Скажу/Desktop/project1/scss/style.scss */
+.team .blog_photos .blog_column p .job {
+  font-family: "GothamProMedium";
+  font-size: 12px;
+}
+
+/* line 488, C:/Users/Не Скажу/Desktop/project1/scss/style.scss */
+.contact_area {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  height: auto;
+  background-image: url(../img/Layer-97.jpg);
+  border: 1px solid red;
+}
+
+/* line 495, C:/Users/Не Скажу/Desktop/project1/scss/style.scss */
+.contact_area .B {
+  display: inline-block;
+  position: relative;
+  font-family: "RobotoCondensedBold";
+  font-size: 225px;
+  color: #fff;
+  opacity: 0.2;
+  margin: 0px auto;
+}
+
+/* line 505, C:/Users/Не Скажу/Desktop/project1/scss/style.scss */
+.contact_area .your_project {
+  display: block;
+  position: relative;
+  font-family: "RobotoCondensedRegular";
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 44px;
+  bottom: 216px;
+}
+
+/*# sourceMappingURL=../css/style.map */
